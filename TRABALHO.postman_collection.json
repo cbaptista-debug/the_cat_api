@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "f46f022b-848c-44d5-8630-06f3c306161a",
+		"name": "TRABALHO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listBreedCompletInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedCompletInfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedCompletInfo"
+					]
+				},
+				"description": "Listar todas as informações de todas as raças"
+			},
+			"response": []
+		},
+		{
+			"name": "listBreedNames",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedNames",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedNames"
+					]
+				},
+				"description": "Listar nomes de todas as raças"
+			},
+			"response": []
+		},
+		{
+			"name": "getBreedCompletInfo/Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/getBreedCompletInfo/Name/Siamese",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"getBreedCompletInfo",
+						"Name",
+						"Siamese"
+					]
+				},
+				"description": "Listar todas as informações da raça pesquisada pelo nome"
+			},
+			"response": []
+		},
+		{
+			"name": "listBreedNames/Temperament",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedNames/Temperament/Active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedNames",
+						"Temperament",
+						"Active"
+					]
+				},
+				"description": "Listar nomes das raças pesquisadas pelo temperamento"
+			},
+			"response": []
+		},
+		{
+			"name": "listBreedNames/Origin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedNames/Origin/United States",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedNames",
+						"Origin",
+						"United States"
+					]
+				},
+				"description": "Listar nomes das raças pesquisadas pela origem"
+			},
+			"response": []
+		},
+		{
+			"name": "listBreedPhotos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedPhotos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedPhotos"
+					]
+				},
+				"description": "Listar todas as fotos"
+			},
+			"response": []
+		},
+		{
+			"name": "listBreedPhotos Hats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedPhotos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedPhotos",
+						"1"
+					]
+				},
+				"description": "Listar 3 de gatos com chapéu"
+			},
+			"response": []
+		},
+		{
+			"name": "listBreedPhotos Glasses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/trabalho/listBreedPhotos/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trabalho",
+						"listBreedPhotos",
+						"4"
+					]
+				},
+				"description": "Listar 3 fotos de gatos com óculos"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
